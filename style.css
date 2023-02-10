@@ -24,7 +24,8 @@ img {
 
 
 body {
-  background-color: #F7F9FC;
+  /* background-color: #eff6ff; */
+  background-color: #dbeaff;
   font-family: 'poppins';
   color: rgba(58, 58, 88, 0.7);
   display: flex;
@@ -57,6 +58,8 @@ a:hover {
 }
 
 .container {
+  background-color: #eff6ff;
+  /* background-color: #dbeaff; */
   box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.1);
   display: flex;
   flex-direction: column;
@@ -68,6 +71,8 @@ a:hover {
 }
 
 .icons_container {
+  /* background-color: #dbeaff; */
+  background-color: #eff6ff;
   box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.1);
   display: flex;
   flex-direction: column;
@@ -107,13 +112,4 @@ a:hover {
 
 .icon {
   font-size: 3rem;
-}
-
-/* MEDIA QUERIES */
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 200px;
-  }
 }
